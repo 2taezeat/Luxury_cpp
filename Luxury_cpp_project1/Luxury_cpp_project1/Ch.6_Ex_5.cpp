@@ -2,14 +2,37 @@
 #include <string>
 using namespace std;
 
+class ArrayUtility {
 
-static void intToDouble(int source[], double dest[], int size);
+public:
+	static void doubleToInt(double source[], int dest[], int size) {
+		for (int i = 0; i < size; i++)
+			dest[i] = int(source[i]);
+	}
+	static void intToDouble(int source[], double dest[], int size) {
+		for (int i = 0; i < size; i++)
+			dest[i] = double(source[i]);
 
-static void doubleToDouble(double source[], int dest[], int size);
+	}
+};
 
 
 int main() {
 
+	int x[] = { 1,2,3,4,5 };
+	double y[5];
+	double z[] = { 9.9,8.8,7.7,6.6,5.5 };
+
+	ArrayUtility::intToDouble(x, y, 5);
+	for (int i = 0; i < 5; i++)
+		cout << y[i] << ' ';
+	cout << endl;
+
+
+	ArrayUtility::doubleToInt(z, x, 5);
+	for (int i = 0; i < 5; i++)
+		cout << x[i] << ' ';
+	cout << endl;
 
 
 	return 0;
