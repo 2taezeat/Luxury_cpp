@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ch.7_Ex_6(2).cpp" />
+    <ClCompile Include="part2\Ch.8_Ex_1.cpp" />
+    <ClCompile Include="part2\Ch.8_Ex_3.cpp" />
+    <ClCompile Include="part2\Ch.8_Ex_5.cpp" />
+    <ClCompile Include="part2\Ch.8_Ex_7.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
