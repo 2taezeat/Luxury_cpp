@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="part2\Ch.8_Ex_7.cpp">
+    <ClCompile Include="part2\Ch.9_Ex_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="part2\Ch.9_Ex_3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="part2\Ch.9_Ex_6.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
