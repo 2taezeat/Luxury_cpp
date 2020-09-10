@@ -18,11 +18,6 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="part2\Ch.9_Ex_1.cpp" />
-    <ClCompile Include="part2\Ch.9_Ex_3.cpp" />
-    <ClCompile Include="part2\Ch.9_Ex_6.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
