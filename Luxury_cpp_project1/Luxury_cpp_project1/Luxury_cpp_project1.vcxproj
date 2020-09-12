@@ -19,7 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="part2\Ch.10_Ex_15.cpp" />
+    <ClCompile Include="Ch.13_Ex_9_main.cpp" />
+    <ClCompile Include="Ch.13_Ex_9_mul.cpp" />
+    <ClCompile Include="part2\Ch.13_Ex_9_get.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
